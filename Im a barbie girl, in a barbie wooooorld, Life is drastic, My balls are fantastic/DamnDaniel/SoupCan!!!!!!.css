@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+label {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+input[type="number"] {
+    width: 50px;
+    padding: 5px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #0074d9;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#dotLine {
+    margin-top: 20px;
+    font-size: 0; /* Remove whitespace between inline-block elements */
+}
+
+.dot {
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    background-color: #333;
+    margin: 0 2px; /* Adjust the spacing between dots */
+}
